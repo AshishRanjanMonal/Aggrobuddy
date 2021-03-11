@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:padding="10dp"
+        android:text="WELCOME IN AGGROBUDDY "
+        android:textColor="#0d47a1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Devloper of Aggrobuddy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#d500f9"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="75dp"
+        android:src="@drawable/ashish_ranjan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:text="My Name is Ashish Ranjan.Currently i am 3rd year student of Gaya college of Engineering, Gaya from COMPUTER SCIENCE AND ENGINEERING branch "
+        android:textAlignment="center"
+        android:textColor="#1e88e5"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#76ff03"
+        android:onClick="@android:string/dialog_alert_title"
+        android:text="FALLOW ON INSTAGRAM"
+        android:textAlignment="center"
+        android:textColor="#f44336"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#00e676"
+        android:text="CONNECT ME ON LINKEDIN"
+        android:textAlignment="center"
+        android:textColor="#f44336"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter your User Id"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter your Password"
+        android:inputType="textPassword" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

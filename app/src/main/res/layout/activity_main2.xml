@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textWelcomeMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="WELCOME"
+                android:textColor="#0d47a1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textLoginMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textWelcomeMessage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text=" Farmer || Merchant || Worker "
+                android:textColor="#0d47a1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textLoginMessage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textLoginMessage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:text=" Login Here "
+                android:textColor="#0d47a1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imglogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/textLoginMessage2"
+                android:src="@drawable/aggrobuddylogo"/>
+
+            <ImageView
+                android:id="@+id/loginlogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/imglogo"
+                android:src="@drawable/login_logo"/>
+
+            <TextView
+                android:id="@+id/textuserid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loginlogo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text=" Mobile Number : "
+                android:textColor="#0d47a1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edit_queryMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textuserid"
+                android:layout_margin="30dp"
+                android:hint="@string/mobile_number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/textuserpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_queryMobileNumber"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text=" Password : "
+                android:textColor="#0d47a1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_queryPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textuserpassword"
+                android:layout_margin="30dp"
+                android:hint="@string/password"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="6dp" />
+
+            <Button
+                android:id="@+id/buttonPanellogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_queryPassword"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorAccent"
+                android:padding="6dp"
+                android:text="@string/log_in"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonPanellogin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="6sp"
+                android:text="@string/forgot_password"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textForgotPassword"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="6dp"
+                android:text="@string/register_yourself"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

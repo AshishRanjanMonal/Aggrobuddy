@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/imageAshish"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_margin="20dp"
+    android:src="@drawable/ashish_ranjan"/>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageAshish"
+        android:text="Ashish Ranjan"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textName"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imageAshish"
+        android:text="aviashishranjan@gmail.com"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEmail"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imageAshish"
+        android:text=" +91 6206416452"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</RelativeLayout>
